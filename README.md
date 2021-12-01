@@ -20,7 +20,7 @@ In the core library, there is also a file called "CaseSetup.py", which contains 
 - HydrofoilTowingTank - A class that inherits from the TowingTank class, but sets up simulations of hydrofoils
 - FoilSimulation      - A class that sets up simulations of two-dimensional foils
 - WingSimulation      - A class that sets up simulations of three-dimensional wings
-- PropelleSimulations - A class that sets up simulations of propellers
+- PropellerSimulations - A class that sets up simulations of propellers
 
 Each application, together with the general CaseSetup class, does several things:
 - They decide how the mesh should be created, based on the type of simulation and dimensions (length and velocity) of the problem
